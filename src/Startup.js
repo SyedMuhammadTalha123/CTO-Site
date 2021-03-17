@@ -28,7 +28,17 @@ class Startup extends React.Component {
                             <span className="badge badge-secondary ml-sm-5 mt-4 p-2" style={{ width: "140px", fontSize: "20px" }}>ANDROID</span>
                             <span className="badge badge-secondary ml-sm-5 mt-4 p-2" style={{ width: "120px", fontSize: "20px" }}>WEB</span>
                         </div>
+                        <div className="row ">
+                            <div className="col-sm-12 col-lg-10 col-md-6" style={{ textAlign: "justify", fontSize: "18px" }}>
 
+
+                                <p className="ml-lg-5 pt-lg-5 ml-sm-5">MiniDukan is an internet marketplace for multi-category product. Product catalog includes electronic product, home improvement things, fashion product for men & girls, nail clipping product, travel provides, and more. a number of of the brands related to the corporate square measure Panasonic, Samsung, DineSmart, Royal bit, Byond, and more. the corporate claims that it operates in the main in rural areas and cities across Republic of India. it's Associate in Nursing app-based platform for robot users.
+ 
+                                </p>
+
+                            </div>
+
+                        </div>
 
                         <div className="row">
                             <div className=" col-lg-7 col-md-3">
@@ -108,6 +118,26 @@ class Startup extends React.Component {
                             <span className="badge badge-secondary ml-sm-4 mt-4 p-2" style={{ width: "120px", fontSize: "20px" }}>WEB</span>
                             <span className="badge badge-secondary ml-sm-5 mt-4 p-2" style={{ width: "140px", fontSize: "20px" }}>SHOPIFY</span>
                             <span className="badge badge-secondary ml-sm-5 mt-4 p-2" style={{ width: "210px", fontSize: "20px" }}>E-COMMERCE</span>
+                        </div>
+                        <div className="row">
+
+                            <div className="col-sm-12 col-lg-12 col-xs-12 ml-lg-5 mt-5">
+                                <img src="../home page.png" width="80%" className="img-responsive" height="auto" alt="responsive" />
+                            </div>
+                        </div>
+                        <div className="row ">
+                            <div className="col-sm-12 col-lg-10 col-md-6" style={{ textAlign: "justify", fontSize: "18px" }}>
+
+
+                                <p className="ml-lg-5 pt-lg-5 ml-sm-5">Pushleopard helps it’s users to make a whole web site while not having any technical information regarding web site building. this can be as a result of puslaopard takes care of all the technicalities concerned on their behalf. mistreatment Shopify, thus, hastens the full method of creating a website and helps to urge your store go live quickly.
+
+                                Pushleopard provides a number of ecommerce web site style services. This includes having the ability to decide on from over seventy themes and over fifty languages whereas building a website.
+
+                                Additionally, every of the pre-designed templates may be more tailored to match your preferences. with intuitive setting its internet primarily based web site builder allows you to style your custom on-line store
+                                </p>
+
+                            </div>
+
                         </div>
                         <div className="row">
                             <div className=" col-lg-7 col-md-3">
@@ -236,8 +266,9 @@ class Startup extends React.Component {
 
 
                         </div>
-                        <div className="text-center col-sm-12 col-lg-3 col-md-2  offset-lg-4 footer  " >
-                            <p>Created By : S.M.TALHA</p>
+                        <div className="text-center col-sm-12 col-lg-3 col-md-2  offset-lg-4 footer  mt-5 mb-5" >
+                            <a href="https://www.linkedin.com/in/syed-muhammad-talha-48189a1b6 " className="a">Created By : S.M.TALHA</a>
+                            <p></p>
                         </div>
                     </div>
 

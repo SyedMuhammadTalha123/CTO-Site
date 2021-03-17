@@ -12,9 +12,17 @@ class Sidebar extends React.Component {
         super(props);
     }
     facebook = () => {
-        window.location = "/Aboutme"
+        window.location = "https://www.linkedin.com/in/adilmalik393/"
     }
-
+    gmail = () => {
+        window.location = "mailto:adilmalik393@gmail.com"
+    }
+    linkedin = () => {
+        window.location = "https://www.linkedin.com/in/adilmalik393/"
+    }
+    skype = () => {
+        window.location = "https://www.linkedin.com/in/adilmalik393/"
+    }
 
     render() {
         return (
@@ -29,13 +37,14 @@ class Sidebar extends React.Component {
                         <a href="/Project"className="pl-lg-5 ml-lg-5 h">Projects</a>
                         <a href="/Hireme"className="pl-lg-5 ml-lg-5 h">Hire Me</a>
                         <div style={{ textAlign: "center" }}  >
-                            <img src="../gmail.svg" className="log" width="30px" height="50px" onClick={this.facebook} />
-                            <img src="../linkedin.svg" className="log" width="40px" height="50px" onClick={this.facebook} />
-                            <img src="../skype.svg" className="log" width="40px" height="50px" onClick={this.facebook} />
+                            <img src="../gmail.svg" className="log" width="30px" height="50px" onClick={this.gmail} />
+                            <img src="../linkedin.svg" className="log" width="40px" height="50px" onClick={this.linkedin} />
+                            <img src="../skype.svg" className="log" width="40px" height="50px" onClick={this.skype} />
                             <img src="../facebook.svg" className="log" width="40px" height="50px" onClick={this.facebook} />
 
-
+                           <br/> <a href="https://www.linkedin.com/in/syed-muhammad-talha-48189a1b6" className=" text-center " style={{fontSize:"12px",display:"inline"}}>Created By : S.M.TALHA</a>
                         </div>
+                        
                     </div>
 
                 </div>

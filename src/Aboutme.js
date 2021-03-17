@@ -270,7 +270,10 @@ class Aboutme extends React.Component {
                                
                             </div>
                         </div>
-
+                        <div className="text-center col-sm-12 col-lg-3 col-md-2  offset-lg-4 footer  mt-5 mb-5" >
+                            <a href="https://www.linkedin.com/in/syed-muhammad-talha-48189a1b6 " className="a">Created By : S.M.TALHA</a>
+                            <p></p>
+                        </div>
                     </div>
 
 

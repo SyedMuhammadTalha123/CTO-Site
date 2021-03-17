@@ -1,10 +1,5 @@
-.body{
-  margin: 0;
-}
-.Container-fluid
-{
-  width:100%;
-}
+
+
 .background
 {
   background: url('./Images/nak.jpg') no-repeat center center fixed;
@@ -12,6 +7,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
   
 
 }
@@ -53,6 +49,12 @@
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
+@media screen and (max-width:450px){
+  .image{
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+}
 .image:hover {
   width: 170px;
   height: 170px;
@@ -61,7 +63,12 @@
 .paragraph{
   color: white;
   font-size: 18px;
-  padding-left: 30px;
+  padding-left: 25px;
+}
+@media screen and (max-width:450px){
+  .paragraph{
+    padding-left: 60px;
+  }
 }
 .head{
    color: white;
@@ -175,7 +182,7 @@
   transition: all 1s ease;
 }
 .h:hover{
-  font-size: 23px;
+  font-size: 21px;
 }
 .sidebar a {
   display: block;
@@ -189,14 +196,14 @@
   
 }
 
- @media screen and (max-width:500px){
+ @media screen and (max-width:450px){
  .sidebar a {
          
      display:inline;
      text-align: center;
      padding:5px;
      font-size: 14px;
-     padding-left: 23px;
+     padding-left: 33px;
      -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -225,7 +232,7 @@ div.cont {
   padding: 1px 16px;
   height:580px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -236,7 +243,7 @@ div.cont {
   div.content {margin-left: 0;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -257,24 +264,30 @@ div.cont {
 {
   margin-top: -120px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
   .margin-card{
     margin-top: 20px;
   }
 }
 .footer
 {
-    padding:5px;
+    padding:2px;
+    padding-top: 15px;
     background-color:rgba(13, 31, 23, 0.9) ;
     color:white;
+    border-radius: 15px;
  
 }
-@media screen and (max-width:400px){
-  .footer{
-   
-    
-    
-  }
+.a{
+  text-decoration: none;
+  color:white;
+  font-style: oblique;
+
+
+}
+.a:hover{
+  color:grey;
+  text-decoration: none;
 }
 
 
