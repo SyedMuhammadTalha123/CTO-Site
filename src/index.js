@@ -14,7 +14,6 @@ import Startup from './Startup';
 import Project from './Project';
 import Footer from './Footer';
 //import 'antd/dist/antd.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 class Root extends React.Component {
   render() {

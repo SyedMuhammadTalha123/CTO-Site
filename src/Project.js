@@ -8,113 +8,52 @@ import Sidebar from './Sidebar';
 class Project extends React.Component {
     render() {
         return (
-            <div className="Container-fluid background">
+            <div className="Container-fluid background flex-container"style={{height:"1200px"}}>
                 <div className="row">
                     <div className="col-lg-3">
                         <Sidebar />
                     </div>
-                    <div className="col-sm-12 col-lg-9 pl-sm-5 pl-lg-5 pl-xs-5 col-xs-12 side">
+                    <div className="col-sm-12 col-lg-9 pl-sm-5 pl-lg-5 pl-xs-5 col-xs-12 side " style={{ height: "1200px" }}>
+                        <h2 className="pt-5 pl-3 mt-5 pl">Get in Touch</h2>
                         <div className="row">
-                            <div className=" col-lg-7 col-sm-12 col-md-12">
-                                <h2 className="pt-5 "><li>Project Manager/Lead Engineer</li></h2>
-                                <a href="https://getpushmonkey.com/" className="pl-lg-5"style={{textDecoration:"none",color:"black",fontSize:"20px"}}>Push Monkey</a>
-                            </div>
-
-                        </div>
-                        
-                        <div className="row ">
-                            <div className="col-sm-12 col-lg-10 col-md-12" style={{ textAlign: "justify", fontSize: "18px" }}>
-
-
-                                <p className="ml-lg-5 pt-lg-5 ml-sm-5">I am responsible for leading remote team and getting product shipped and delivered smoothly. My
-                                   responsibilities include DevOps, System Scalability, Technical Support for clients, Managing different
-                                  plugins on WooCommerce, Shopify and magneto.
-
-                                
-                                </p>
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                                <img src="../linkedin.svg"  className=" kl " width="40px" height="40px" /><a href="https://www.linkedin.com/in/syed-muhammad-talha-48189a1b6" className="ml-lg-5 pl-lg-5 Contact" style={{ textDecoration: "none" }}>https://www.linkedin.com/in/syed-muhammad-talha-48189a1b6</a><br />
 
                             </div>
-
-                        </div>
-
-                        <div className="row">
-                        <div className=" col-lg-7 col-sm-12 col-md-12">
-                                <h2 className="pt-5 "><li>CTO</li></h2>
-                                <a href="https://wukla.com/" className="pl-lg-5"style={{textDecoration:"none",color:"black",fontSize:"20px"}}>Wukla (Early Stage Company).</a>
-                            </div>
-                            <div className="col-sm-12 col-lg-10 col-md-12" style={{ textAlign: "justify", fontSize: "18px" }}>
-
-
-                           <p className="ml-lg-5 pt-lg-5 ml-sm-5"> 
-                            I lead the software development team. I am responsible for getting the products shipped and ensuring
-                              the team is hitting the mark. I am also obliged for managing Infrastructure, hiring technical people and
-                           weakly sprint planing and review.
-
-                            </p>
-
-                             </div>
-                            
                         </div>
                         <div className="row">
-                        <div className=" col-lg-7 col-sm-12 col-md-12">
-                                <h2 className="pt-5 "><li>Application Engineer</li></h2>
-                                <a href="https://www.myhealthathand.com/" className="pl-lg-5"style={{textDecoration:"none",color:"black",fontSize:"20px"}}>Health at Hand</a>
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                                <img src="../gmail.svg" className="mt-4 kl " width="40px" height="40px" /><a href="mailto:talhaayub009@gmail.com" className="ml-lg-5 pl-lg-5 Contact" style={{ textDecoration: "none" }}>talhaayub009@gmail.com</a><br />
+
                             </div>
-                            <div className="col-sm-12 col-lg-10 col-md-12" style={{ textAlign: "justify", fontSize: "18px" }}>
-
-                            <ul className="ml-lg-5 pt-lg-5 ml-sm-5"> 
-                           <li>Maintained and developed new features for Python/Django base application.</li>
-                        <li> Rapid rest API development using Django-rest-framework.</li>
-                        <li>Implemented following features. i.e. wallet, payments, promotions, referral.</li>
-                        <li>Managing Deployments for different environments.</li>    
-                            </ul>
-
-                             </div>
-                            
                         </div>
                         <div className="row">
-                        <div className=" col-lg-7 col-sm-12 col-md-12">
-                                <h2 className="pt-5 "><li>Software Engineer</li></h2>
-                                <a href="https://mezino.com/" className="pl-lg-5"style={{textDecoration:"none",color:"black",fontSize:"20px"}}>Software Engineer</a>
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                                <img src="../facebook.svg" className="mt-4 kl" width="40px" height="40px" /><a href="https://www.facebook.com/syedtalhaayub" className="ml-lg-5 pl-lg-5 Contact" style={{ textDecoration: "none" }}>https://www.facebook.com/syedtalhaayub</a><br />
                             </div>
-                            <div className="col-sm-12 col-lg-10 col-md-12" style={{ textAlign: "justify", fontSize: "18px" }}>
-
-
-                           <ul className="ml-lg-5 pt-lg-5 ml-sm-5"> 
-                           <li>Maintaining and developing new features for Python/Django Project.</li>
-                        <li> Rapid rest API development using Django-rest-framework.</li>
-                        <li>Behavior Driven Testing using Selenium and Lettuce for Web Services in python.</li>
-                        <li>Various API integration for Shopify CMS.</li>    
-                            </ul>
-
-
-                             </div>
-                            
                         </div>
                         <div className="row">
-                        <div className=" col-lg-7 col-sm-12 col-md-12">
-                                <h2 className="pt-5 "><li>Incubate + Startup Co-founder</li></h2>
-                                <a href="https://thenestio.com/startup/rateker/" className="pl-lg-5 pl-sm-5"style={{textDecoration:"none",color:"black",fontSize:"20px"}}>Rateker - NEST I/O.</a>
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                                <img src="../download-removebg-preview.png" className="mt-4 kl" width="40px" height="40px" /><a href="https://web.whatsapp.com/" className="ml-lg-5 pl-lg-5 pl Contact" style={{ textDecoration: "none" }}>0312-5060398</a><br />
                             </div>
-                            <div className="col-sm-12 col-lg-10 col-md-12" style={{ textAlign: "justify", fontSize: "18px" }}>
-
-
-                           <ul className="ml-lg-5 pt-lg-5 ml-sm-5"> 
-                           <li>Working with organizational constructs with the other co-founders.</li>
-                          <li> Leading a team (two developers and a designer) to meet startup deadlines.</li>
-                          <li>Meeting with the Investors for funding the product.</li>
-                          <li> Listening and adapting critical user experience about the product.</li>    
-                            </ul>
-
-
-                             </div>
-                            
                         </div>
-                </div>         
+                        <div className="row">
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                                <img src="../1200px-Instagram.svg-removebg-preview.png" className="mt-4 kl " width="40px" height="40px" /><a href="https://instagram.com/syedtalhaayub?utm_medium=copy_link" className="ml-lg-5 pl-lg-5 Contact" style={{ textDecoration: "none" }}>https://instagram.com/syedtalhaayub?utm_medium=copy_link</a><br />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className=" col-lg-12 col-sm-12 col-md-12 ml-4 mt-5 ">
+                            <img src="../free-mobile-phone-icon-760-thumb-removebg-preview.png" className="mt-4 kl " width="60px" height="40px" /><a href="https://instagram.com/syedtalhaayub?utm_medium=copy_link" className="ml-lg-4 pl pl-lg-5 Contact" style={{ textDecoration: "none" }}>0312-5060398</a><br />
+                            </div>
+                        </div>
+                       
+
+                    </div>
                 </div>
             </div>
-                
-            
+
+
         );
     }
 }
